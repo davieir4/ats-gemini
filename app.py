@@ -4,7 +4,7 @@ from src.pdf_processor import extract_text_from_pdf
 from src.ai_analyst import analyze_candidate
 
 # Configuração da Página
-st.set_page_config(page_title="Recrutador IA Pro", page_icon="🔍", layout="wide")
+st.set_page_config(page_title="Recruiting Assistant", page_icon="🔍", layout="wide")
 
 # --- FUNÇÃO AUXILIAR DE UI ---
 def render_custom_input(label, options, key_prefix):
